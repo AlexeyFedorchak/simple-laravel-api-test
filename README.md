@@ -23,7 +23,12 @@ Make sure you have PHP 8.2 or higher installed.
     composer install
     ```
 
-2. Run tests:
+2. Migrate database:
+    ```
+    php artisan migrate
+    ```
+
+3. Run tests:
     ```
     phpunit --filter=SubmissionStoreApiTest
     ```
